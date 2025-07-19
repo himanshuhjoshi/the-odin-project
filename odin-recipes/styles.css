@@ -1,0 +1,20 @@
+body{
+    background-color: #d2cc79d6;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Brush Script MT', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: #662B1E;
+}
+
+ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+li{
+    margin: 10px;
+}
+
