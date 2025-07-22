@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION */
+.title {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card{
+  max-width: 200px;
+}
