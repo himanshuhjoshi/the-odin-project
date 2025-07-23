@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F5F2E7;
+    color: #333;
+    
+}
+
+button{
+    background-color: #A0522D;
+    color: #F5F2E7;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F2E7;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    background-color: #4B2E2E;
+    color: #F5F2E7;
+    padding: 24px 32px;
+}
+
+.name{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-heading{
+    font-size: 48px;
+}
+
+.subtext{
+    font-size: 18px;
+}
+
+.order{
+    font-size: 16px;
+    width: 25%;
+    padding: 12px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.hero-img{
+    width: 500px;
+    height: 350px;
+}
+
+.info{
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    background-color: #D2B48C;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+
+.info-heading{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+
+.card{
+    width: 250px;
+}
+
+.card-heading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-img{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0px 32px;
+}
+
+.customer{
+    margin-left: auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #D2B48C;
+    padding: 32px 0px;
+    margin: 30px;
+}
+
+.banner p{
+    font-size: 24px;
+}
+
+.banner button{
+    font-size: 18px;
+    padding: 8px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 18px;
+    background-color: #4B2E2E;
+    color: #F5F2E7;
+    padding: 32px;
+}
