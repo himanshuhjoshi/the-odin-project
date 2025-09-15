@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
+}
+
+label, input{
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+input{
+    border-radius: 10px;
+
+}
+
+button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#container {
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px hsla(0, 0%, 50%, 0.144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+
+#container div{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+}
+
+#container .paint {
+    background-color: black;
+}
